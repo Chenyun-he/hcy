@@ -11,12 +11,16 @@
 
                     <span :class="'span'+(item.myself?'right':'left')">
                     
-                    <img :src="handsome" class=" 'fuck' + (item.myself?'right':'left')"  style="witdh:20px; height:20px"> 
+                    <img style="positon:relative;right:30px;witdh:20px; height:20px" :src="handsome" class=" 'fuck' + (item.myself?'right':'left')" > 
 
-                    {{item.message}}
-
-                    <img :src="you" class=" 'letgo' + (item.myself?'right':'left')" style="witdh:20px; height:20px; float:right">   
+                    <div style="display:inline-block;width:calc(100% - 28px)">
+                        {{item.message}} 
+                    </div>
                     
+
+                    <div style="display:inline-block;width:20px;vertical-align: top;" v-if="item.myself">
+                        <img :src="you" class=" 'letgo' + (item.myself?'right':'left')" style="witdh:20px; height:20px; float:right">   
+                    </div>
                     </span>
 
 
