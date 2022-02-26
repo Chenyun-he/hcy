@@ -1,6 +1,4 @@
-# vue-router-page-jump
-![avatar](https://img2018.cnblogs.com/blog/872412/201810/872412-20181010165748835-1294147441.gif)
-> A Vue.js project
+
 
 ## Build Setup
 
@@ -17,5 +15,3 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
